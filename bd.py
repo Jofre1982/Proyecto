@@ -1,5 +1,5 @@
 import mysql.connector
-
+""
 # Función para establecer la conexión a la base de datos
 def establecer_conexion():
     return mysql.connector.connect(
