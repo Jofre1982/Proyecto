@@ -68,11 +68,11 @@ def administrativo(documento, nombre, apellido, fecha_nacimiento, direccion, tel
 
 def registrarse(rol):
     if rol == "estudiante":
-        estudiante()
+        estudiante
     elif rol == "profesor":
-        profesor()
+        profesor
     elif rol == "administrativo":
-        administrativo()
+        administrativo
 
 def inicio_sesion():
     usuario = input("Ingrese su nombre de usuario: ")
@@ -86,3 +86,4 @@ def home(opcion):
     elif opcion == "registrarse":
         rol = input("Ingrese su rol (estudiante, profesor, administrativo): ")
         registrarse(rol)
+
